@@ -32,3 +32,24 @@ h1 {font-family; Garamond; text-align: center; color: #460090}
             padding 0;   
         }
 .footer{width: 100%}
+
+.nutrition{
+    float: left;
+    width: 31%;
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+.gardening{
+    float: left;
+    width: 32%;
+    padding-left: 1%;
+    padding-right: 1%
+
+}
+.recipes{
+    float: left;
+    width: 31%;
+    padding-left: 1%;
+    padding-right: 1%
+}
