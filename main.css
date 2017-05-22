@@ -66,6 +66,7 @@ min-height: 100%;
 div.footer{width: 100%;
 background-color: aqua;
 height: 20px;
-position: relative;
+position: absolute;
+bottom: -10%;
 }
 
