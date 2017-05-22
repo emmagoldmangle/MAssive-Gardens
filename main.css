@@ -1,34 +1,50 @@
 h1 {font-family; Garamond; text-align: center; color: #460090}
-    body{background-color: #CEEFD5 }
-    p {color: black}
-    h2 {font-family; Garamond}
-    h2 {color: darkgreen}
-    a {color: black}
-    a:visited{ color: darkorchid}
-    a:hover{color:blue}
-    a:active{color:darkblue}
-    hr {background-color: darkorchid} 
+body{
+    background-color: #CEEFD5;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    }
+p {color: black}
+h2 {
+    font-family; Garamond;
+    color: darkgreen;
+    }
+a {color: black}
+a:visited{ color: darkorchid}
+a:hover{color:blue}
+a:active{color:darkblue}
+hr {background-color: darkorchid} 
+div.title{width: 100%}
+
     div.navbar {
     float: left; 
-    width: 15%; 
-    height: 100%;
+    width: 14%; 
+    min-height: 100%;
+    background-color: #158212;
+    position: absolute;
+    
     }
-    div.main{
-        float: right;
-        width: 85%;
-        height: 100%;
-        }
+
     li a {
         font-size: 30px;
         font-family:sans-serif;
-        display: block;
-        width: 85%;
-        background-color: #158212; 
-        line-height: 700%;
+        display: grid;
+        width: 100%;
+        /*line-height: 700%;*/
         }
       
-        ul { list-style-type: circle; 
+        ul { list-style-type: none;
             margin: 0; 
             padding 0;   
         }
-.footer{width: 100%}
+
+    div.main{
+        float: right;
+        width: 85%;
+        min-height: 100%;
+        }
+
+div.footer{width: 100%;
+background-color: aqua;
+height: 20px;}
